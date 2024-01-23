@@ -1,0 +1,20 @@
+{
+    "test_cases": ["test_cases/api_test_timeshift_script.py"],
+    "tools": {
+      "codecarbon": {
+        "output_path": "output/codecarbon",
+        "measurement_interval": 2
+      },
+      "carbontracker": {
+        "output_path": "output/carbontracker"
+      },
+      "eco2ai": {
+        "output_path": "output/eco2ai"
+      },
+      "energat": {
+            "output_path": "output/energat"
+        }
+    },
+    "log_file": "logs/project_log.log"
+  }
+  
