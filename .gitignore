@@ -4,5 +4,4 @@ tools/__pycache__
 test_cases/__pycache__
 test_cases/landmark_detection/__pycache__
 test_cases/face_masking/__pycache__
-/logs
 ```

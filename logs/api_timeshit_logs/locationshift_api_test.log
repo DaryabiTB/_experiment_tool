@@ -1,0 +1,42 @@
+2023-12-06 11:22:13,773 - INFO - Running test case: Average renewable energy, under 1 hour, short-term future
+2023-12-06 11:22:14,303 - INFO - Request: {
+  "estimated_runtime_hours": 0,
+  "estimated_runtime_minutes": 45,
+  "percent_renewable": 30,
+  "area_code": [
+    "DE-40210",
+    "BE-9000",
+    "BG-4000",
+    "HR-10360",
+    "CY-5288",
+    "CZ-370 01",
+    "DK-7100",
+    "EE-80010",
+    "FI-15110",
+    "FR-44000",
+    "AT-1010",
+    "GR-38221",
+    "HU-7621",
+    "IE-H91",
+    "IT-90121",
+    "LV-LV-3001",
+    "LT-44001",
+    "LU-L-3401",
+    "MT-FGR 1000",
+    "NL-5611",
+    "PL-90-001",
+    "PT-9000-001",
+    "RO-100001",
+    "SK-974 01",
+    "SI-2250",
+    "ES-50001",
+    "SE-411 02",
+    "CH-6003"
+  ],
+  "process_id": "1",
+  "log_request": false,
+  "hard_finish_time": 1701859033.772928
+}
+2023-12-06 11:22:14,309 - INFO - Response JSON: {
+  "message": "Internal Server Error"
+}
