@@ -1,0 +1,9 @@
+2023-12-06 09:02:25 - CarbonTracker: Traceback (most recent call last):
+  File "D:\Job\Expermient\AI_tools_to_track_the_emission\venv\Lib\site-packages\carbontracker\tracker.py", line 118, in run
+    self.begin()
+  File "D:\Job\Expermient\AI_tools_to_track_the_emission\venv\Lib\site-packages\carbontracker\tracker.py", line 132, in begin
+    self._components_remove_unavailable()
+  File "D:\Job\Expermient\AI_tools_to_track_the_emission\venv\Lib\site-packages\carbontracker\tracker.py", line 188, in _components_remove_unavailable
+    raise exceptions.NoComponentsAvailableError()
+carbontracker.exceptions.NoComponentsAvailableError: No components were available. CarbonTracker supports Intel CPUs with the RAPL interface and NVIDIA GPUs.
+
