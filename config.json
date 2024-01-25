@@ -1,5 +1,5 @@
 {
-    "test_cases": ["test_cases/api_test_timeshift_script.py", "testcases/facemasking/main.py"],
+    "test_cases": ["test_cases/api_test_timeshift_script.py"],
     "tools": {
       "codecarbon": {
         "output_path": "output/codecarbon",
@@ -8,7 +8,12 @@
       "carbontracker": {
         "output_path": "output/carbontracker"
       },
-      ... other tools
+      "eco2ai": {
+        "output_path": "output/eco2ai"
+      },
+      "energat": {
+            "output_path": "output/energat"
+        }
     },
     "log_file": "logs/project_log.log"
   }
