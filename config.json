@@ -13,7 +13,10 @@
       },
       "energat": {
             "output_path": "output/energat"
-        }
+      },
+      "cloud_carbon_footprint": {
+            "output_path": "output/cloud_carbon_footprint"
+      }
     },
     "log_file": "logs/project_log.log"
   }

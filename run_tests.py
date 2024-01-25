@@ -3,7 +3,6 @@ import logging
 import random
 import importlib
 import argparse
-import sys
 
 # Initialize logging
 logging.basicConfig(filename='logs/project_log.log', level=logging.INFO,
@@ -11,7 +10,8 @@ logging.basicConfig(filename='logs/project_log.log', level=logging.INFO,
 
 # Parse command-line arguments
 parser = argparse.ArgumentParser(description='Run emission tracking tools.')
-parser.add_argument('--tool', type=str, help='Specify the tool name or "all" to run all tools.', default='all')
+parser.add_argument('--tool', nargs='+', help='Specify tool names separated by space, or "all" to run all tools.')
+
 args = parser.parse_args()
 
 # Load config
@@ -30,6 +30,15 @@ def start_all():
 		start_tool(tool_name)
 
 
+def start_selected_tools(tools):
+	# Run each test with each selected tool
+	for tool_name in tools:
+		if tool_name in config["tools"]:
+			start_tool(tool_name)
+		else:
+			logging.warning(f"Tool '{tool_name}' not found. Skipping.")
+
+
 def start_tool(tool_name):
 	logging.info(f"Executing tool : {tool_name}")
 	tool_module = importlib.import_module(f"tools.{tool_name}_tool")
@@ -40,12 +49,7 @@ def start_tool(tool_name):
 
 
 if __name__ == "__main__":
-	tool_name = args.tool
-	if tool_name == 'all':
+	if 'all' in args.tool:
 		start_all()
 	else:
-		if tool_name in config["tools"]:
-			start_tool(tool_name)
-		else:
-			print(f"Tool '{tool_name}' not found. Available tools are: {list(config['tools'].keys())}")
-			sys.exit(1)
+		start_selected_tools(args.tool)

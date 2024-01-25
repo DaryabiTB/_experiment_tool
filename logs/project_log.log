@@ -874,3 +874,72 @@ FileNotFoundError: [Errno 2] No such file or directory: 'output/eco2ai\\emission
 2023-12-19 08:47:35,052 - INFO - Executing tool : codecarbon
 2023-12-19 08:47:36,679 - INFO - Running test_cases/landmark_detection/train.py with codecarbon
 2023-12-19 12:17:04,815 - INFO - Executing tool : energat
+2024-01-25 15:45:28,189 - INFO - Executing tool : codecarbon
+2024-01-25 15:45:33,612 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 15:45:39,215 - INFO - Completed energy measurement for test_cases/api_test_timeshift_script.py
+2024-01-25 15:45:43,529 - INFO - Executing tool : codecarbon
+2024-01-25 15:45:44,019 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 15:45:48,263 - INFO - Completed energy measurement for test_cases/api_test_timeshift_script.py
+2024-01-25 15:45:56,972 - INFO - Tool execution order: ['carbontracker', 'eco2ai', 'energat', 'codecarbon']
+2024-01-25 15:45:56,972 - INFO - Executing tool : carbontracker
+2024-01-25 15:50:00,548 - INFO - Tool execution order: ['codecarbon', 'eco2ai', 'cloud_carbon_footprint', 'energat', 'carbontracker']
+2024-01-25 15:50:00,548 - INFO - Executing tool : codecarbon
+2024-01-25 15:50:01,059 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 15:50:01,059 - INFO - ******
+2024-01-25 15:50:01,059 - INFO - Executing tool : eco2ai
+2024-01-25 15:51:05,054 - INFO - Tool execution order: ['cloud_carbon_footprint', 'codecarbon', 'carbontracker', 'eco2ai', 'energat']
+2024-01-25 15:51:05,054 - INFO - Executing tool : cloud_carbon_footprint
+2024-01-25 15:51:05,063 - INFO - Running test_cases/api_test_timeshift_script.py with cloud_carbon_footprint
+2024-01-25 15:51:05,063 - INFO - ******
+2024-01-25 15:51:05,063 - INFO - Executing tool : codecarbon
+2024-01-25 15:51:05,545 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 15:51:05,545 - INFO - ******
+2024-01-25 15:51:05,545 - INFO - Executing tool : carbontracker
+2024-01-25 15:51:06,276 - INFO - Requested http://ipinfo.io/json
+2024-01-25 15:51:06,292 - INFO - Running test_cases/api_test_timeshift_script.py with carbontracker
+2024-01-25 15:51:06,307 - INFO - ******
+2024-01-25 15:51:06,307 - INFO - Executing tool : eco2ai
+2024-01-25 15:51:46,193 - INFO - Tool execution order: ['codecarbon', 'carbontracker', 'energat', 'cloud_carbon_footprint', 'eco2ai']
+2024-01-25 15:51:46,193 - INFO - Executing tool : codecarbon
+2024-01-25 15:51:46,690 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 15:51:46,690 - INFO - ******
+2024-01-25 15:51:46,690 - INFO - Executing tool : carbontracker
+2024-01-25 15:51:46,884 - INFO - Requested http://ipinfo.io/json
+2024-01-25 15:51:46,896 - INFO - Running test_cases/api_test_timeshift_script.py with carbontracker
+2024-01-25 15:51:46,896 - INFO - ******
+2024-01-25 15:51:46,896 - INFO - Executing tool : energat
+2024-01-25 15:52:17,586 - INFO - Tool execution order: ['codecarbon', 'energat', 'cloud_carbon_footprint', 'eco2ai', 'carbontracker']
+2024-01-25 15:52:17,586 - INFO - Executing tool : codecarbon
+2024-01-25 15:52:18,061 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 15:52:18,061 - INFO - ******
+2024-01-25 15:52:18,061 - INFO - Executing tool : energat
+2024-01-25 15:52:52,937 - INFO - Tool execution order: ['carbontracker', 'codecarbon', 'cloud_carbon_footprint', 'energat', 'eco2ai']
+2024-01-25 15:52:52,937 - INFO - Executing tool : carbontracker
+2024-01-25 15:52:53,688 - INFO - Requested http://ipinfo.io/json
+2024-01-25 15:52:53,704 - INFO - Running test_cases/api_test_timeshift_script.py with carbontracker
+2024-01-25 15:52:53,704 - INFO - ******
+2024-01-25 15:52:53,704 - INFO - Executing tool : codecarbon
+2024-01-25 15:52:53,767 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 15:52:53,767 - INFO - ******
+2024-01-25 15:52:53,767 - INFO - Executing tool : cloud_carbon_footprint
+2024-01-25 15:52:53,767 - INFO - Running test_cases/api_test_timeshift_script.py with cloud_carbon_footprint
+2024-01-25 15:52:53,767 - INFO - ******
+2024-01-25 15:52:53,767 - INFO - Executing tool : energat
+2024-01-25 15:52:53,782 - INFO - Running test_cases/api_test_timeshift_script.py with energat
+2024-01-25 15:52:53,782 - INFO - ******
+2024-01-25 15:52:53,782 - INFO - Executing tool : eco2ai
+2024-01-25 15:52:54,003 - INFO - Running test_cases/api_test_timeshift_script.py with eco2ai
+2024-01-25 15:52:54,003 - INFO - ******
+2024-01-25 15:53:08,963 - INFO - Executing tool : codecarbon
+2024-01-25 15:53:09,453 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 15:53:09,453 - INFO - ******
+2024-01-25 15:53:15,468 - INFO - Executing tool : codecarbon
+2024-01-25 15:53:15,937 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 15:53:15,937 - INFO - ******
+2024-01-25 15:53:15,937 - INFO - Executing tool : carbontracker
+2024-01-25 15:53:16,157 - INFO - Requested http://ipinfo.io/json
+2024-01-25 15:53:16,157 - INFO - Running test_cases/api_test_timeshift_script.py with carbontracker
+2024-01-25 15:53:16,157 - INFO - ******
+2024-01-25 16:02:17,263 - INFO - Executing tool : carbontracker
+2024-01-25 16:02:17,891 - INFO - Requested http://ipinfo.io/json
+2024-01-25 16:02:17,906 - INFO - Running test_cases/api_test_timeshift_script.py with carbontracker

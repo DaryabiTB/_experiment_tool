@@ -3,8 +3,8 @@ import logging
 # Import CCF specific libraries
 
 def run_test(test_case_path, config):
-    # Setup CCF tracker or necessary setup
     # Start tracking
+    print("cloudcarbon")
     try:
         # Run the test case script
         subprocess.run(["python", test_case_path], check=True)

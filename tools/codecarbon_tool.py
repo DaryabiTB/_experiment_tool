@@ -77,6 +77,7 @@ def generate_summary(test_case_path, config):
 
 
 def run_test(test_case_path, config):
+	print("codecarbon")
 	tracker = EmissionsTracker(project_name="second_project", output_dir=config["output_path"])
 	tracker.start()
 	try:

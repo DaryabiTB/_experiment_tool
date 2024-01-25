@@ -13,8 +13,5 @@ CarbonTracker is a tool for tracking and predicting the carbon footprint of mach
 ## Output
 - Carbon footprint data is saved in the specified `output_path`.
 
-## Eco2AI github
-[Eco2AI GitHub Repository](https://github.com/sb-ai-lab/Eco2AI)
-
 ## Source
 [CarbonTracker GitHub Repository](https://github.com/lfwa/carbontracker)

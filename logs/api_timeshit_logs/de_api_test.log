@@ -532,3 +532,9 @@
 2023-12-07 14:02:38,358 - INFO - Scenario 11: Percent renewable more than 100 (invalid input) + 1:00:00
 2023-12-07 14:02:38,358 - INFO - Request: {'estimated_runtime_hours': 1, 'estimated_runtime_minutes': 0, 'percent_renewable': 150, 'area_code': 'DE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1701957757}
 2023-12-07 14:02:38,358 - INFO - Response JSON: {'message': 'Internal Server Error'}
+2024-01-25 15:45:36,867 - INFO - Scenario 1: Low renewable energy, short runtime, immediate future + 0:10:00
+2024-01-25 15:45:36,867 - INFO - Request: {'estimated_runtime_hours': 0, 'estimated_runtime_minutes': 15, 'percent_renewable': 5, 'area_code': 'DE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1706194536}
+2024-01-25 15:45:36,867 - INFO - Response JSON: {'message': 'Token not active'}
+2024-01-25 15:45:46,188 - INFO - Scenario 1: Low renewable energy, short runtime, immediate future + 0:10:00
+2024-01-25 15:45:46,188 - INFO - Request: {'estimated_runtime_hours': 0, 'estimated_runtime_minutes': 15, 'percent_renewable': 5, 'area_code': 'DE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1706194546}
+2024-01-25 15:45:46,188 - INFO - Response JSON: {'message': 'Token not active'}

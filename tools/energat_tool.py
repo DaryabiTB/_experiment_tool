@@ -2,12 +2,14 @@ import logging
 import subprocess
 
 import psutil, time
+
+
 from energat.tracer import EnergyTracer
 
 
 def run_test(test_case_path, config):
 	# Initialize the energy tracker
-	
+	print("energat")
 	try:
 		# Run the test case script
 		with EnergyTracer(psutil.Process().pid, output=r'output/Energat/xyz_energy') as tracer:
