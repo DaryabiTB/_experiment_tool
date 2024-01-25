@@ -1,4 +1,5 @@
 .idea
+.env
 /venv
 tools/__pycache__
 test_cases/__pycache__

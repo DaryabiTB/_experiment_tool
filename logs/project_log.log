@@ -943,3 +943,36 @@ FileNotFoundError: [Errno 2] No such file or directory: 'output/eco2ai\\emission
 2024-01-25 16:02:17,263 - INFO - Executing tool : carbontracker
 2024-01-25 16:02:17,891 - INFO - Requested http://ipinfo.io/json
 2024-01-25 16:02:17,906 - INFO - Running test_cases/api_test_timeshift_script.py with carbontracker
+2024-01-25 16:22:56,549 - INFO - Executing tool : codecarbon
+2024-01-25 16:22:57,087 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 16:22:59,364 - ERROR - Error running test case test_cases/api_test_timeshift_script.py: Command '['python', 'test_cases/api_test_timeshift_script.py']' returned non-zero exit status 1.
+2024-01-25 16:22:59,379 - INFO - Completed energy measurement for test_cases/api_test_timeshift_script.py
+2024-01-25 16:22:59,379 - INFO - ******
+2024-01-25 16:25:43,898 - INFO - Executing tool : codecarbon
+2024-01-25 16:25:44,371 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 16:25:46,399 - ERROR - Error running test case test_cases/api_test_timeshift_script.py: Command '['python', 'test_cases/api_test_timeshift_script.py']' returned non-zero exit status 1.
+2024-01-25 16:25:46,614 - INFO - Completed energy measurement for test_cases/api_test_timeshift_script.py
+2024-01-25 16:25:46,614 - INFO - ******
+2024-01-25 16:28:29,555 - INFO - Executing tool : codecarbon
+2024-01-25 16:28:30,039 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 16:28:32,275 - ERROR - Error running test case test_cases/api_test_timeshift_script.py: Command '['python', 'test_cases/api_test_timeshift_script.py']' returned non-zero exit status 1.
+2024-01-25 16:28:32,298 - INFO - Completed energy measurement for test_cases/api_test_timeshift_script.py
+2024-01-25 16:28:32,298 - INFO - ******
+2024-01-25 16:29:59,070 - INFO - Executing tool : codecarbon
+2024-01-25 16:29:59,592 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 16:30:01,730 - ERROR - Error running test case test_cases/api_test_timeshift_script.py: Command '['python', 'test_cases/api_test_timeshift_script.py']' returned non-zero exit status 1.
+2024-01-25 16:30:01,751 - INFO - Completed energy measurement for test_cases/api_test_timeshift_script.py
+2024-01-25 16:30:01,751 - INFO - ******
+2024-01-25 16:32:22,068 - INFO - Executing tool : codecarbon
+2024-01-25 16:32:22,563 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 16:32:24,491 - ERROR - Error running test case test_cases/api_test_timeshift_script.py: Command '['python', 'test_cases/api_test_timeshift_script.py']' returned non-zero exit status 1.
+2024-01-25 16:32:24,523 - INFO - Completed energy measurement for test_cases/api_test_timeshift_script.py
+2024-01-25 16:32:24,523 - INFO - ******
+2024-01-25 16:32:34,157 - INFO - Executing tool : codecarbon
+2024-01-25 16:32:34,632 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 16:33:39,532 - INFO - Completed energy measurement for test_cases/api_test_timeshift_script.py
+2024-01-25 16:33:39,532 - INFO - ******
+2024-01-25 16:34:49,203 - INFO - Executing tool : codecarbon
+2024-01-25 16:34:49,678 - INFO - Running test_cases/api_test_timeshift_script.py with codecarbon
+2024-01-25 16:35:53,700 - INFO - Completed energy measurement for test_cases/api_test_timeshift_script.py
+2024-01-25 16:35:53,700 - INFO - ******

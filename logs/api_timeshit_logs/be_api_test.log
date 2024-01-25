@@ -1,24 +1,33 @@
-2023-12-07 13:07:43,168 - INFO - Scenario 1: Low renewable energy, short runtime, immediate future + 0:10:00
-2023-12-07 13:07:43,169 - INFO - Request: {'estimated_runtime_hours': 0, 'estimated_runtime_minutes': 15, 'percent_renewable': 5, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1701951461}
-2023-12-07 13:07:43,169 - INFO - Response JSON: {'message': 'Internal Server Error'}
-2023-12-07 13:07:49,090 - INFO - Scenario 2: Moderate renewable energy, moderate runtime, short-term future + 1:00:00
-2023-12-07 13:07:49,090 - INFO - Request: {'estimated_runtime_hours': 1, 'estimated_runtime_minutes': 30, 'percent_renewable': 50, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1701954468}
-2023-12-07 13:07:49,097 - INFO - Response JSON: {'message': 'Internal Server Error'}
-2023-12-07 13:07:54,716 - INFO - Scenario 3: High renewable energy, long runtime, mid-term future + 12:00:00
-2023-12-07 13:07:54,716 - INFO - Request: {'estimated_runtime_hours': 3, 'estimated_runtime_minutes': 0, 'percent_renewable': 90, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1701994074}
-2023-12-07 13:07:54,716 - INFO - Response JSON: {'average_percent_renewable': 35.439843538962485, 'message': 'Failure', 'process_id': 'Failure', 'suggested_start': 1701950875}
-2023-12-07 13:08:00,654 - INFO - Scenario 4: High renewable energy, short runtime, long-term future + 1 day, 0:00:00
-2023-12-07 13:08:00,654 - INFO - Request: {'estimated_runtime_hours': 0, 'estimated_runtime_minutes': 15, 'percent_renewable': 90, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1702037279}
-2023-12-07 13:08:00,654 - INFO - Response JSON: {'average_percent_renewable': 35.244311165990474, 'message': 'Failure', 'process_id': 'Failure', 'suggested_start': 1701950881}
-2023-12-07 13:08:06,239 - INFO - Scenario 5: Moderate renewable energy, long runtime, immediate future + 0:10:00
-2023-12-07 13:08:06,239 - INFO - Request: {'estimated_runtime_hours': 3, 'estimated_runtime_minutes': 0, 'percent_renewable': 50, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1701951485}
-2023-12-07 13:08:06,239 - INFO - Response JSON: {'message': 'Internal Server Error'}
-2023-12-07 13:08:12,251 - INFO - Scenario 6: Low renewable energy, moderate runtime, mid-term future + 12:00:00
-2023-12-07 13:08:12,251 - INFO - Request: {'estimated_runtime_hours': 1, 'estimated_runtime_minutes': 30, 'percent_renewable': 5, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1701994091}
-2023-12-07 13:08:12,251 - INFO - Response JSON: {'average_percent_renewable': 34.23252094880553, 'message': 'Failure', 'process_id': 'Failure', 'suggested_start': 1701950892}
-2023-12-07 13:18:18,643 - INFO - Scenario 1: Low renewable energy, short runtime, immediate future + 0:10:00
-2023-12-07 13:18:18,644 - INFO - Request: {'estimated_runtime_hours': 0, 'estimated_runtime_minutes': 15, 'percent_renewable': 5, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1701952098}
-2023-12-07 13:18:18,644 - INFO - Response JSON: {'message': 'Internal Server Error'}
-2023-12-07 13:18:24,204 - INFO - Scenario 2: Moderate renewable energy, moderate runtime, short-term future + 1:00:00
-2023-12-07 13:18:24,204 - INFO - Request: {'estimated_runtime_hours': 1, 'estimated_runtime_minutes': 30, 'percent_renewable': 50, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1701955103}
-2023-12-07 13:18:24,204 - INFO - Response JSON: {'message': 'Internal Server Error'}
+2024-01-25 16:34:53,666 - INFO - Scenario 1: Low renewable energy, short runtime, immediate future + 0:10:00
+2024-01-25 16:34:53,667 - INFO - Request: {'estimated_runtime_hours': 0, 'estimated_runtime_minutes': 15, 'percent_renewable': 5, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1706197491}
+2024-01-25 16:34:53,667 - INFO - Response JSON: {'average_percent_renewable': 0, 'message': 'RUNTIME_LONGER_THAN_DEADLINE_ALLOWS', 'process_id': 'none', 'suggested_start': 1706196893}
+2024-01-25 16:34:58,996 - INFO - Scenario 2: Moderate renewable energy, moderate runtime, short-term future + 1:00:00
+2024-01-25 16:34:58,996 - INFO - Request: {'estimated_runtime_hours': 1, 'estimated_runtime_minutes': 30, 'percent_renewable': 50, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1706200498}
+2024-01-25 16:34:58,996 - INFO - Response JSON: {'average_percent_renewable': 0, 'message': 'RUNTIME_LONGER_THAN_DEADLINE_ALLOWS', 'process_id': 'none', 'suggested_start': 1706196898}
+2024-01-25 16:35:04,444 - INFO - Scenario 3: High renewable energy, long runtime, mid-term future + 12:00:00
+2024-01-25 16:35:04,444 - INFO - Request: {'estimated_runtime_hours': 3, 'estimated_runtime_minutes': 0, 'percent_renewable': 90, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1706240104}
+2024-01-25 16:35:04,444 - INFO - Response JSON: {'average_percent_renewable': 23.606631441729412, 'message': 'OPTIMAL_TIME', 'process_id': 'none', 'suggested_start': 1706198400.0}
+2024-01-25 16:35:10,277 - INFO - Scenario 4: High renewable energy, short runtime, long-term future + 1 day, 0:00:00
+2024-01-25 16:35:10,277 - INFO - Request: {'estimated_runtime_hours': 0, 'estimated_runtime_minutes': 15, 'percent_renewable': 90, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1706283309}
+2024-01-25 16:35:10,277 - INFO - Response JSON: {'average_percent_renewable': 23.682084427388407, 'message': 'OPTIMAL_TIME', 'process_id': 'none', 'suggested_start': 1706194800.0}
+2024-01-25 16:35:15,566 - INFO - Scenario 5: Moderate renewable energy, long runtime, immediate future + 0:10:00
+2024-01-25 16:35:15,566 - INFO - Request: {'estimated_runtime_hours': 3, 'estimated_runtime_minutes': 0, 'percent_renewable': 50, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1706197515}
+2024-01-25 16:35:15,566 - INFO - Response JSON: {'average_percent_renewable': 0, 'message': 'RUNTIME_LONGER_THAN_DEADLINE_ALLOWS', 'process_id': 'none', 'suggested_start': 1706196915}
+2024-01-25 16:35:20,856 - INFO - Scenario 6: Low renewable energy, moderate runtime, mid-term future + 12:00:00
+2024-01-25 16:35:20,856 - INFO - Request: {'estimated_runtime_hours': 1, 'estimated_runtime_minutes': 30, 'percent_renewable': 5, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1706240120}
+2024-01-25 16:35:20,856 - INFO - Response JSON: {'average_percent_renewable': 22.772328628195268, 'message': 'OPTIMAL_TIME', 'process_id': 'none', 'suggested_start': 1706194800.0}
+2024-01-25 16:35:27,318 - INFO - Scenario 7: Runtime equal to hard finish time + 1:00:00
+2024-01-25 16:35:27,333 - INFO - Request: {'estimated_runtime_hours': 1, 'estimated_runtime_minutes': 0, 'percent_renewable': 30, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1706200525}
+2024-01-25 16:35:27,333 - INFO - Response JSON: {'average_percent_renewable': 0, 'message': 'RUNTIME_LONGER_THAN_DEADLINE_ALLOWS', 'process_id': 'none', 'suggested_start': 1706196927}
+2024-01-25 16:35:32,632 - INFO - Scenario 8: Runtime shorter than hard finish time + 1:00:00
+2024-01-25 16:35:32,632 - INFO - Request: {'estimated_runtime_hours': 0, 'estimated_runtime_minutes': 45, 'percent_renewable': 40, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1706200532}
+2024-01-25 16:35:32,632 - INFO - Response JSON: {'average_percent_renewable': 23.682084427388407, 'message': 'OPTIMAL_TIME', 'process_id': 'none', 'suggested_start': 1706194800.0}
+2024-01-25 16:35:37,903 - INFO - Scenario 9: Runtime longer than hard finish time (should test if API handles this correctly) + 2:00:00
+2024-01-25 16:35:37,903 - INFO - Request: {'estimated_runtime_hours': 2, 'estimated_runtime_minutes': 30, 'percent_renewable': 20, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1706204137}
+2024-01-25 16:35:37,903 - INFO - Response JSON: {'average_percent_renewable': 0, 'message': 'RUNTIME_LONGER_THAN_DEADLINE_ALLOWS', 'process_id': 'none', 'suggested_start': 1706196937}
+2024-01-25 16:35:43,214 - INFO - Scenario 10: Percent renewable less than 0 (invalid input) + 2:00:00
+2024-01-25 16:35:43,214 - INFO - Request: {'estimated_runtime_hours': 1, 'estimated_runtime_minutes': 30, 'percent_renewable': -10, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1706204142}
+2024-01-25 16:35:43,214 - INFO - Response JSON: {'average_percent_renewable': 0, 'message': 'NEGATIVE_PERCENT_RENEWABLE', 'process_id': 'none', 'suggested_start': 1706196943}
+2024-01-25 16:35:48,534 - INFO - Scenario 11: Percent renewable more than 100 (invalid input) + 1:00:00
+2024-01-25 16:35:48,534 - INFO - Request: {'estimated_runtime_hours': 1, 'estimated_runtime_minutes': 0, 'percent_renewable': 150, 'area_code': 'BE', 'process_id': '1', 'log_request': False, 'hard_finish_time': 1706200548}
+2024-01-25 16:35:48,534 - INFO - Response JSON: {'average_percent_renewable': 0, 'message': 'RUNTIME_LONGER_THAN_DEADLINE_ALLOWS', 'process_id': 'none', 'suggested_start': 1706196948}
